@@ -85,19 +85,25 @@ main {
     margin-top: 95px;
 }
 
+#videos {
+    display: flex;
+    justify-content: center;
+}
+
 
 /*Hero*/
 #hero {
     height: 95vh;
     width: 100%;
-    background: url('../images/image3.jpg') no-repeat center center / cover;
+    background: url('../images/image4.jpg') no-repeat center center / cover;
     position: relative;
 }
 
 #cover-text {
-    background-color: #5a96b3;
+    background-color: rgba(90, 150, 179, 0.7);
     font-size: 85%;
     position: absolute;
+    text-align: center;
     top: 10px;
     left: 10px;
     width: 90%;
@@ -111,44 +117,23 @@ main {
     color: #cfcf35;
 }
 
-#reasons{
+#subject-text {
+    background-color: rgba(90, 150, 179, 0.7);
+    font-size: 100%;
+    position: absolute;
+    bottom: 200px;
+    left: 10px;
     width: 90%;
-    margin: 20px auto;
-}
-#reasons h2{
-    margin-bottom:20px;
-    text-align: center;
-    font-size: 180%;
+    min-height: 160px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
 }
 
-#points > div, #changes > div {
-    line-height: 25px;
-    margin-bottom: 10px;
+#subject-text p {
+    color: #cfcf35;
 }
 
-#points > p {
-    padding: 0 20px;
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
-
-#circle-cover-bg {
-    background: url('../images/image5.jpg') no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-#background-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /*footer*/
 
@@ -202,27 +187,29 @@ footer {
     }
 
     /*hero*/
+
     #cover-text {
         width: 350px;
+        top: 200px;
         left: 22px;
         min-height: 10vh;
-    }   
-    #good-points, 
-    #proof {
+    } 
+
+    #subject-text {
+        width: 350px;
+        text-align: center;
+        top: 400px;
+        left: 22px;
+        height: 75px;
+        font-size: 120%;
+    }
+    
+    #videos {
         display: flex;
-        flex-direction: column;
-        width: 100%;
+        justify-content: center;
+        height: 400px;
     }
-
-    #good-points > div, 
-    #proof > div{
-        width: 75%;
-    }
-
-    #proof > div {
-        text-align: end;
-        align-self: flex-end;
-    }
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -237,36 +224,34 @@ footer {
     h1 {
         text-align: center;
     }
-}
 
-
-@media screen and (min-width:1200px) {
-    
-    #points {
+    #videos {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
+        height: 1000px;
+    }
+    #cover-text {
+        width: 350px;
+        top: 250px;
+        left: 600px;
+        height: 350px;
+        font-size: 130%;
     }
 
-    #points > div {
-        flex: 1;
+    #subject-text {
+        width: 350px;
+        top: 625px;
+        left: 600px;
+        height: 250px;
+        font-size: 150%;
     }
 
-    #background-image {
-        order: 0;
-    }
-
-    #proof {
-        order: 1;
-    }
-
-    #proof > div {
-        align-self: flex-start;
-    }
-
-    #good-points > div{
-        align-self: flex-end;
+    #hero {
+        height: 100vh;
     }
 }
+
+
 
 a,
 h1 {
