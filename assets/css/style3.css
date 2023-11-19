@@ -84,16 +84,18 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../images/image7.jpg') no-repeat center center / cover;
+    background: url(../images/image7.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .wrapper {
-    width: 450px;
-    background-color: transparent;
+    width: 240px;
+    background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2)
+    color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
 }
@@ -101,14 +103,13 @@ main {
 .wrapper h1 {
     font-size: 36px;
     text-align: center;
-    color: #ffffff;
 }
 
 .wrapper .input-box {
     position: relative;
     width: 100%;
-    height: 50px;
-    margin: 30px 0;
+    height: 40px;
+    margin: 20px 0;
 }
 
 .input-box input {
@@ -133,8 +134,7 @@ main {
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 20px;
-    color: #ffffff;
+    font-size: 15px;
 }
 
 .wrapper .remember-forgot {
@@ -151,7 +151,7 @@ main {
 
 .remember-forgot a {
     color: #fff;
-    text-transform: none;
+    text-decoration: none;
 }
 
 .remember-forgot a:hover {
@@ -187,6 +187,8 @@ main {
 .register-link p a:hover {
     text-decoration: underline;
 }
+
+
 
 /*footer*/
 
@@ -261,6 +263,10 @@ footer {
         text-align: end;
         align-self: flex-end;
     }
+
+    .wrapper {
+        width: 380px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -275,36 +281,13 @@ footer {
     h1 {
         text-align: center;
     }
-}
 
-
-@media screen and (min-width:1200px) {
-    
-    #points {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #points > div {
-        flex: 1;
-    }
-
-    #background-image {
-        order: 0;
-    }
-
-    #proof {
-        order: 1;
-    }
-
-    #proof > div {
-        align-self: flex-start;
-    }
-
-    #good-points > div{
-        align-self: flex-end;
+    .wrapper {
+        width: 420px;
     }
 }
+
+
 
 a,
 h1 {
