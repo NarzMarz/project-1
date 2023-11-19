@@ -84,11 +84,11 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../images/image6.jpg') no-repeat center center / cover;
+    background: url('../images/image7.jpg') no-repeat center center / cover;
 }
 
 .wrapper {
-    width: 420px;
+    width: 450px;
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
