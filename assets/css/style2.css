@@ -134,6 +134,10 @@ main {
     color: #cfcf35;
 }
 
+/*this is styling for the gallery images and there text*/
+#imgs {
+    position: relative;
+}
 
 #photos img {
     width: 100%;
@@ -142,6 +146,24 @@ main {
 
 #photos {
     line-height: 0;
+}
+
+#imgs div p {
+    color: #cfcf35;
+}
+
+#img1-text {
+    background-color: rgba(90, 150, 179, 0.7);
+    position: absolute;
+    font-size: 90%;
+    top: 50px;
+    left: 5px;
+    width: 44%;
+    min-height: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
 }
 
 /*footer*/
@@ -163,6 +185,11 @@ footer {
     background-color: rgb(91, 102, 102);
 }
 
+@media screen and (min-width: 375px) {
+    main {
+        margin-top: 49px;
+    }
+}
 
 @media screen and (min-width: 576px;) {
     #photos {

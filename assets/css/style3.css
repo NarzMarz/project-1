@@ -209,6 +209,12 @@ footer {
     background-color: rgb(91, 102, 102);
 }
 
+@media screen and (min-width: 375px) {
+    main {
+        margin-top: 49px;
+    }
+}
+
 /*medie query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     nav {
