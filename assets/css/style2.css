@@ -156,14 +156,61 @@ main {
     background-color: rgba(90, 150, 179, 0.7);
     position: absolute;
     font-size: 90%;
-    top: 50px;
+    top: 160px;
     left: 5px;
-    width: 44%;
+    width: 55%;
     min-height: 160px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     border-radius: 20px;
+}
+
+#falcon {
+    background-color: rgba(90, 150, 179, 0.7);
+    position: absolute;
+    font-size: 90%;
+    top: 570px;
+    right: 10px;
+    width: 45%;
+    min-height: 105px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+#c3po {
+    background-color: rgba(90, 150, 179, 0.7);
+    position: absolute;
+    font-size: 90%;
+    top: 700px;
+    width: 45%;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+
+#ccity-landing {
+    background-color: rgba(90, 150, 179, 0.7);
+    position: absolute;
+    font-size: 90%;
+    bottom: 125px;
+    left: 20px;
+    width: 80%;
+    min-height: 10vh;
+    padding: 5px;
+    border-radius: 10px;
+} 
+
+#cloud-city {
+    background-color: rgba(90, 150, 179, 0.7);
+    position: absolute;
+    font-size: 90%;
+    bottom: 0px;
+    left: 105px;
+    width: 60%;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
 }
 
 /*footer*/
@@ -189,7 +236,26 @@ footer {
     main {
         margin-top: 49px;
     }
+
+    #falcon {
+        top: 620px;
+    }
+
+    #c3po {
+        top: 905px;
+    }
+
+    #ccity-landing {
+        bottom: 170px;
+        left: 40px;
+    }
+
+    #cloud-city {
+        bottom: 5px;
+        left: 140px;
+    }
 }
+
 
 @media screen and (min-width: 576px;) {
     #photos {
