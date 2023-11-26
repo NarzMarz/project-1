@@ -256,8 +256,35 @@ footer {
     }
 }
 
+@media screen and (min-width: 390px) {
 
-@media screen and (min-width: 576px;) {
+    #subject-text {
+        top: 390px;
+        font-size: 115%;
+        margin-bottom: 150px;
+    }
+
+    #img1-text {
+        top: 275px;
+        min-height: 135px;
+    }
+
+    #falcon {
+        top: 650px;
+        min-height: 85px;
+    }
+
+    #c3po {
+        top: 950px;
+    }
+
+    #ccity-landing {
+        bottom: 174px;
+        min-height: 60px;
+    }
+}
+
+@media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
         column-gap: 0;

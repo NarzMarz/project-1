@@ -150,6 +150,21 @@ hr {
     align-items: center;
 }
 
+#subject-text {
+    background-color: rgba(90, 150, 179, 0.7);
+    position: absolute;
+    font-size: 90%;
+    width: 80%;
+    top: 240px;
+    left: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#subject-text h2, #subject-text p {
+    color: #cfcf35;
+}
+
 /*footer*/
 
 #social-networks {
