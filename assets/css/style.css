@@ -165,6 +165,25 @@ hr {
     color: #cfcf35;
 }
 
+/*contect page*/
+
+#contact-us {
+    color: #cfcf35;
+    background-color: #3a3a3a;
+}
+
+#contact-us h2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#contact-us p {
+    width: 90%;
+    padding: 5px;
+    text-align: center;
+}
+
 /*footer*/
 
 #social-networks {
