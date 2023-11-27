@@ -245,6 +245,11 @@ footer {
         text-align: end;
         align-self: flex-end;
     }
+
+    #subject-text {
+        width: 90%;
+        left: 35px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -258,6 +263,18 @@ footer {
 
     h1 {
         text-align: center;
+    }
+
+    #cover-text {
+        font-size: 175%;
+        left: 35px;
+    }
+
+    #subject-text {
+        background-color: rgb(90, 150, 179);
+        font-size: 175%;
+        width: 30%;
+        top: 400px;
     }
 }
 
