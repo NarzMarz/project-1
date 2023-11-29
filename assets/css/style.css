@@ -95,7 +95,7 @@ main {
 }
 
 #cover-text {
-    background-color: #5a96b3;
+    background-color: rgba(29, 30, 31, 0.7);
     font-size: 85%;
     position: absolute;
     top: 10px;
@@ -151,7 +151,7 @@ hr {
 }
 
 #subject-text {
-    background-color: rgba(90, 150, 179, 0.7);
+    background-color: rgba(29, 30, 31, 0.7);
     position: absolute;
     font-size: 90%;
     width: 80%;
@@ -290,7 +290,6 @@ footer {
     }
 
     #subject-text {
-        background-color: rgb(90, 150, 179);
         font-size: 175%;
         width: 30%;
         top: 400px;

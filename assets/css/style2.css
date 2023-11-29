@@ -100,8 +100,8 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(90, 150, 179, 0.7);
-    font-size: 85%;
+    background-color: rgba(29, 30, 31, 0.7);
+    font-size: 150%;
     position: absolute;
     text-align: center;
     top: 10px;
@@ -118,8 +118,8 @@ main {
 }
 
 #subject-text {
-    background-color: rgba(90, 150, 179, 0.7);
-    font-size: 100%;
+    background-color: rgba(29, 30, 31, 0.7);
+    font-size: 150%;
     position: absolute;
     bottom: 200px;
     left: 10px;
@@ -153,7 +153,7 @@ main {
 }
 
 #img1-text {
-    background-color: rgba(90, 150, 179, 0.7);
+    background-color: rgba(29, 30, 31, 0.7);
     position: absolute;
     font-size: 90%;
     top: 160px;
@@ -167,7 +167,7 @@ main {
 }
 
 #falcon {
-    background-color: rgba(90, 150, 179, 0.7);
+    background-color: rgba(29, 30, 31, 0.7);
     position: absolute;
     font-size: 90%;
     top: 570px;
@@ -180,7 +180,7 @@ main {
 }
 
 #c3po {
-    background-color: rgba(90, 150, 179, 0.7);
+    background-color: rgba(29, 30, 31, 0.7);
     position: absolute;
     font-size: 90%;
     top: 700px;
@@ -190,7 +190,7 @@ main {
 }
 
 #ccity-landing {
-    background-color: rgba(90, 150, 179, 0.7);
+    background-color: rgba(29, 30, 31, 0.7);
     position: absolute;
     font-size: 90%;
     bottom: 125px;
@@ -202,7 +202,7 @@ main {
 } 
 
 #cloud-city {
-    background-color: rgba(90, 150, 179, 0.7);
+    background-color: rgba(29, 30, 31, 0.7);
     position: absolute;
     font-size: 90%;
     bottom: 0px;
@@ -322,7 +322,6 @@ footer {
         line-height: 50px;
         margin: 0 0.5rem;
     }
-
     /*hero*/
 
     #cover-text {
@@ -334,11 +333,11 @@ footer {
 
     #subject-text {
         width: 350px;
+        height: 180px;
         text-align: center;
         top: 400px;
         left: 22px;
-        height: 75px;
-        font-size: 120%;
+        font-size: 118%;
     }
     
     #videos {
@@ -350,6 +349,38 @@ footer {
     #photos {
         column-count: 2;
         column-gap: 0;
+    }
+
+    #img1-text {
+        top: 275px;
+        min-height: 130px;
+        width: 35%;
+    }
+
+    #falcon {
+        top: 650px;
+        min-height: 85px;
+        width: 35%;
+        left: 110px;
+    }
+
+    #c3po {
+        top: 20px;
+        width: 35%;
+        right: 100px;
+    }
+
+    #ccity-landing {
+        bottom: 490px;
+        min-height: 60px;
+        width: 35%;
+        left: 400px;
+    }
+
+    #cloud-city {
+        bottom: 140px;
+        width: 35%;
+        left: 480px;
     }
     
 }
@@ -394,6 +425,46 @@ footer {
 
     column-count: 2;
     column-gap: 0;
+
+}
+
+@media screen and (min-width:1200px) {
+    #img1-text {
+        top: 1080px;
+        min-height: 110px;
+        width: 35%;
+        font-size: 150%;
+    }
+
+    #falcon {
+        top: 2130px;
+        min-height: 75px;
+        width: 35%;
+        left: 110px;
+        font-size: 150%;
+    }
+
+    #c3po {
+        top: 20px;
+        width: 35%;
+        right: 100px;
+        font-size: 150%;
+    }
+
+    #ccity-landing {
+        bottom: 1780px;
+        min-height: 60px;
+        width: 35%;
+        left: 1400px;
+        font-size: 150%;
+    }
+
+    #cloud-city {
+        bottom: 500px;
+        width: 35%;
+        left: 1600px;
+        font-size: 150%;
+    }
 }
 
 
