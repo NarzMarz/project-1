@@ -90,7 +90,7 @@ main {
 #hero {
     height: 95vh;
     width: 100%;
-    background: url('../images/image3.jpg') no-repeat center center / cover;
+    background: url('../images/lightsabers.jpg') no-repeat center center / cover;
     position: relative;
 }
 
@@ -136,7 +136,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../images/image5.jpg') no-repeat top center / cover;
+    background: url('../images/george_lucas.jpg') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
