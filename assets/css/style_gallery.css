@@ -237,6 +237,10 @@ footer {
         margin-top: 49px;
     }
 
+    #img1-text {
+        top: 250px;
+    }
+
     #falcon {
         top: 620px;
     }
@@ -335,7 +339,7 @@ footer {
         width: 350px;
         height: 180px;
         text-align: center;
-        top: 400px;
+        top: 500px;
         left: 22px;
         font-size: 118%;
     }
@@ -407,7 +411,7 @@ footer {
         width: 350px;
         top: 250px;
         left: 600px;
-        height: 350px;
+        height: 250px;
         font-size: 130%;
     }
 
@@ -428,6 +432,27 @@ footer {
 
 }
 
+@media screen and (min-width:1024px) {
+    #img1-text {
+        height: 90px;
+        top: 380px;
+    }
+
+    #falcon {
+        top: 850px;
+    }
+
+    #ccity-landing {
+        bottom: 680px;
+        left: 600px;
+    }
+
+    #cloud-city {
+        bottom: 200px;
+        left: 660px;
+    }
+}
+
 @media screen and (min-width:1200px) {
     #img1-text {
         top: 1080px;
@@ -437,7 +462,7 @@ footer {
     }
 
     #falcon {
-        top: 2130px;
+        top: 2140px;
         min-height: 75px;
         width: 35%;
         left: 110px;
@@ -452,7 +477,7 @@ footer {
     }
 
     #ccity-landing {
-        bottom: 1780px;
+        bottom: 1720px;
         min-height: 60px;
         width: 35%;
         left: 1400px;

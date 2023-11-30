@@ -296,6 +296,11 @@ footer {
     }
 }
 
+@media screen and (min-width:1024px) {
+    #subject-text {
+        width: 40%;
+    }
+}
 
 @media screen and (min-width:1200px) {
     
