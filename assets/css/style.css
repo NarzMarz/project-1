@@ -154,7 +154,7 @@ hr {
     background-color: rgba(29, 30, 31, 0.7);
     position: absolute;
     font-size: 90%;
-    width: 80%;
+    width: 75%;
     top: 240px;
     left: 25px;
     padding: 5px;
@@ -179,8 +179,8 @@ hr {
 }
 
 #contact-us p {
-    width: 90%;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
 }
 
@@ -285,12 +285,12 @@ footer {
     }
 
     #cover-text {
-        font-size: 175%;
+        font-size: 130%;
         left: 35px;
     }
 
     #subject-text {
-        font-size: 175%;
+        font-size: 130%;
         width: 30%;
         top: 400px;
     }
