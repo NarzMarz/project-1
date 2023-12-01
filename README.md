@@ -106,7 +106,7 @@ the only unfixed i can think of is the sizing of everything for larger laptops s
   - when in there find the drop down box and select the master branch options
   - once the master branch option is selected the page will be automatically refreshed once done in the branch option make sure the options main, /root then hit save.
 
-The link to my deployed website can be found here. [Deployed Site]()
+The link to my deployed website can be found here. [Link to Deployed Site](https://narzmarz.github.io/project-1/)
 
 
 ## Credits
