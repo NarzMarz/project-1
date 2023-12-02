@@ -115,4 +115,6 @@ The link to my deployed website can be found here. [Link to Deployed Site](https
 All writing on my page is my own how ever the images are all from google images that where either free to use or someone reuploaded old photos from the sets of the movies.
 The video at the bottom of the page is a youtube video made by the channel StudioBinder explaining how all the sound FX and VFX where made in those movies in great detail. 
 
-I have also used code from a youtuber called codehal for my sign in page (which was a tutorial)
+I have also used code from a youtuber called codehal for my sign in page. (which was a tutorial) [Link to codehal tutorial](https://www.youtube.com/watch?v=hlwlM4a5rxg&list=PLnXUfV1LB96Q3lGeq0ZessdklUI_tQd0l&index=9&t=371s)
+
+I also gained alot of insperation from the love running project. [Link to Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/)
