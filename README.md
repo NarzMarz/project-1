@@ -10,7 +10,7 @@ This site is targeted at all star wars fans and at those interested in the visua
 
 - **Navigation Bar**
   
-  - Featured on all 3 webpages is a fully responsive navigation bar that has links to the logo, Home page, Gallery and Sign in page. The navigation bar look identical on all pages so it doesn't course any confusion and allows for easier navigation.
+  - Featured on all 3 webpages is a fully responsive navigation bar that has links to the logo, Home page, Gallery and Sign in page. The navigation bar look identical on all pages so it doesn't cause any confusion and allows for easier navigation.
   
   - The purpose of this section is to allow users to easily navigate across the pages without having to use the back button to return to certain pages.
   
